@@ -1,5 +1,5 @@
 {
-  "name": "@bullyswap-libs/bully-swap-core",
+  "name": "@bully-swap/bully-swap-core",
   "description": "Core contracts for the bully protocol",
   "version": "0.1.0",
   "homepage": "https://bullyswap.com",
