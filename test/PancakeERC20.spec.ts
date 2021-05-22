@@ -14,7 +14,7 @@ chai.use(solidity)
 const TOTAL_SUPPLY = expandTo18Decimals(10000)
 const TEST_AMOUNT = expandTo18Decimals(10)
 
-describe('BullyERC20', () => {
+/*describe('BullyERC20', () => {
   const provider = new MockProvider({
     hardfork: 'istanbul',
     mnemonic: 'horn horn horn horn horn horn horn horn horn horn horn horn',
@@ -113,4 +113,4 @@ describe('BullyERC20', () => {
     expect(await token.allowance(wallet.address, other.address)).to.eq(TEST_AMOUNT)
     expect(await token.nonces(wallet.address)).to.eq(bigNumberify(1))
   })
-})
+})*/
